@@ -14,6 +14,6 @@ getPAH(sites, pcodes = pah_pcodes, startDate, endDate)
 \item{site}{vector of character strings representing USGS site IDs}
 }
 \description{
-Retrieve PAH data from NWIS. If you already have your PAH data in-hand, there is no
+Retrieve PAH data from WQP. If you already have your PAH data in-hand, there is no
 need to run this function.
 }
