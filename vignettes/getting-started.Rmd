@@ -51,7 +51,7 @@ my_sites <- c("040870377", "430213088063601", "040871474", "04087100",
                    "04087142", "04087120", "04087204", "04087070", "04087030",
                    "040870195", "04086600")
 
-my_dat <- dataRetrieval::readNWISqw(siteNumbers = my_sites, parameterCd = pah::pah_pcodes, 
+my_dat <- dataRetrieval::readWQPqw(siteNumbers = my_sites, parameterCd = pah::pah_pcodes, 
                                     startDate = '2014-04-01', endDate = '2014-09-01')
 
 ```
