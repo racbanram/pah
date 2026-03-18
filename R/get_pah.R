@@ -13,7 +13,7 @@
 
 getPAH <- function(sites, pcodes = pah_pcodes, startDate, endDate) {
 
-  pahs <- readNWISqw(siteNumbers = sites, parameterCd = pcodes, startDate, endDate)
+  pahs <- readWQPqw(siteNumbers = sites, parameterCd = pcodes, startDate, endDate)
 
 }
 
